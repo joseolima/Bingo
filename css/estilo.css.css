@@ -1,0 +1,56 @@
+body {
+  background-color: #3498db;
+  font-family: "Calibri", sans-serif;
+}
+
+.cabecalho {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  font-family: "Monotype Corsiva";
+  color: white;
+  margin-top: 100px;
+  width: 100%;
+  min-width: 1024px;
+  height: 350px;
+  background-color: #446CB3;
+  border: 10px solid #ECECEC;
+  margin: auto;
+}
+
+.cabecalho h1 {
+  font-size: 4em;
+}
+
+.brasao-esquerdo {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  float: left;
+  top: 10px;
+  left: 30px;
+  margin: 10px;
+}
+
+.brasao-direito {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  float: right;
+  top: 10px;
+  right: 30px;
+  margin: 10px;
+}
+
+#container {
+  display: inline-block;
+  position: absolute;
+  float:none;
+  width: 1600px;
+  height: 800px;
+  border: 2px solid black;
+}
+
+#container ul li {
+  display: inline-block;
+}

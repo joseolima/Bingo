@@ -1,0 +1,118 @@
+
+body {
+  background-color: #3498db;
+  font-family: "Calibri", sans-serif;
+
+}
+
+.cabecalho {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  min-width: 1500px;
+  width: 100%;
+  height: 340px;
+  background-color: #446CB3;
+  border: 10px solid #ECECEC;
+}
+
+.cabecalho h1{
+  font-family: "Monotype Corsiva";
+  color: white;
+  margin-top: 100px;
+  position: absolute;
+  width: 40%;
+  height: 200px;
+  font-size: 5em;
+  top: 5px;
+  left: 50%;
+  transform: translatex(-50%);
+  text-align: center;
+  line-height: 80px;
+}
+
+.brasao-esquerdo {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 8px;
+  left: 50px;
+  margin: 10px;
+}
+
+.brasao-direito {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 8  px;
+  right: 50px;
+  margin: 10px;
+}
+
+.conteudo-principal {
+  width: 1700px;
+  min-width:1240px;
+  height: 520px;
+  font-size: 3em;
+  position: relative;
+  left: 50%;
+  top: 380px;
+  transform: translateX(-50%);
+  //background-color: #74b9ff;
+}
+
+.conteudo-principal li {
+  font-size: 0.6em;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+  background-color: white;
+  margin: auto;
+  line-height: 90px;
+  cursor: pointer;
+  color: #4183D7;
+  font-weight: bold;
+  transition: 1s;
+  box-shadow: 7px 6px 5px #6C7A89;
+}
+
+.conteudo-principal li:hover {
+  background: #F5D76E;
+}
+
+.letras-bingo {
+  position: relative;
+  float: left;
+  width: 120px;
+  height: 520px;
+}
+
+.letras-bingo ul {
+  width: 120px;
+  height: 520px;
+  align-items: center;
+
+}
+
+.letras-bingo li {
+  font-size: 0.6em;
+  text-transform: capitalize;
+  background-color: #4183D7;
+  display: table;
+  width: 90px;
+  height: 90px;
+  color: white;
+  transition: 1s;
+  box-shadow: 2px 2px 4px #ccc;
+  line-height: 90px;
+  margin: 16px 20px;
+  margin-top: 0;
+}
+
+.jogar button {
+  top: 950px;
+  right: 150px;
+  position: absolute;
+}
