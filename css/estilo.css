@@ -9,7 +9,7 @@ body {
   position: fixed;
   display: flex;
   align-items: center;
-  min-width: 1500px;
+  min-width: 1200px;
   width: 100%;
   height: 340px;
   background-color: #446CB3;
@@ -51,14 +51,13 @@ body {
 
 .conteudo-principal {
   width: 1700px;
-  min-width:1240px;
+  min-width:1200px;
   height: 520px;
   font-size: 3em;
   position: relative;
   left: 50%;
   top: 380px;
   transform: translateX(-50%);
-  //background-color: #74b9ff;
 }
 
 .conteudo-principal li {
@@ -68,7 +67,7 @@ body {
   border-radius: 100%;
   width: 90px;
   height: 90px;
-  background-color: white;
+  background-color: #fff;
   margin: auto;
   line-height: 90px;
   cursor: pointer;
@@ -79,7 +78,7 @@ body {
 }
 
 .conteudo-principal li:hover {
-  background: #F5D76E;
+  background: #55efc4;
 }
 
 .letras-bingo {
@@ -112,7 +111,32 @@ body {
 }
 
 .jogar button {
-  top: 950px;
-  right: 150px;
+  background-color: #ff7675;
+  top: 958px;
+  right: 180px;
   position: absolute;
+}
+
+.jogar button:hover {
+  background-color: #86E2D5;
+
+}
+
+.sorteio {
+  position: relative;
+  float: right;
+  top: 437px;
+  right: 350px;
+}
+
+.botao {
+  position: relative;
+  top: -37px;
+  right: -60px;
+  float: right;
+}
+
+.entrada-numeros {
+  width: 50px;
+
 }

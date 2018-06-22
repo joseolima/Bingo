@@ -6,8 +6,9 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilo.css">
-    <script src="js/bingo.js"></script>
+    <meta name="authot" content="José Olivar de Lima - olivanlima@gmail.com">
     <title>Bingo - Paróquia Santa Terezinha</title>
+    <link rel="icon" type="imagem/png" href="img/novo-brasao.png">
   </head>
   <body>
     <main>
@@ -26,7 +27,7 @@
             <li>o</li>
           </ul>
         </div>
-        <div class="letra-b">
+        <div class="letra-b numeros">
           <ul>
             <li>01</li>
             <li>02</li>
@@ -45,7 +46,7 @@
             <li>15</li>
           </ul>
         </div>
-        <div class="letra-i">
+        <div class="letra-i numeros">
           <ul>
             <li>16</li>
             <li>17</li>
@@ -64,7 +65,7 @@
             <li>30</li>
           </ul>
         </div>
-        <div class="letra-n">
+        <div class="letra-n numeros">
           <ul>
             <li>31</li>
             <li>32</li>
@@ -83,7 +84,7 @@
             <li>45</li>
           </ul>
         </div>
-        <div class="letra-g">
+        <div class="letra-g numeros">
           <ul>
             <li>46</li>
             <li>47</li>
@@ -103,7 +104,7 @@
           </ul>
         </div>
 
-        <div class="letra-o">
+        <div class="letra-o numeros">
           <ul>
             <li>61</li>
             <li>62</li>
@@ -124,9 +125,16 @@
         </div>
       </div>
       <div class="jogar">
-          <button type="button" class="btn btn-secondary btn-lg">Novo jogo</button>
+          <button onclick="AtualizaPagina()" type="button" class="novo-jogo btn btn-secondary">Novo jogo</button>
+      </div>
+      <div class="sorteio">
+        <input class="entrada-numeros form-control" type="text" name="entrada" maxlength="2">
+        <button type="submit" class="botao btn btn-dark">OK</button>
       </div>
     </main>
-
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bingo.js"></script>    
   </body>
 </html>
